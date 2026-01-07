@@ -1,5 +1,7 @@
-import './App.css';
+// import './App.css';
+import Animals from './components/Animals';
 import Bye from './components/Bye';
+import Fruits from './components/Fruits';
 import Hello from './components/Hello';
 function App() {
   // const seatNumbers = [1,4,7];
@@ -10,7 +12,9 @@ function App() {
   };
   return (
     <>
-      <Hello person={person} />
+      {/* <Hello person={person} /> */}
+      {/* <Animals /> */}
+      <Fruits />
     </>
   );
 }
