@@ -3,6 +3,7 @@ import Animals from './components/Animals';
 import Bye from './components/Bye';
 import Fruits from './components/Fruits';
 import Hello from './components/Hello';
+import Message from './components/Message';
 function App() {
   // const seatNumbers = [1,4,7];
   const person = {
@@ -14,7 +15,8 @@ function App() {
     <>
       {/* <Hello person={person} /> */}
       {/* <Animals /> */}
-      <Fruits />
+      {/* <Fruits /> */}
+      <Message />
     </>
   );
 }
