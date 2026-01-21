@@ -4,6 +4,7 @@ import Bye from './components/Bye';
 import Fruits from './components/Fruits';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   // const seatNumbers = [1,4,7];
   const person = {
@@ -16,7 +17,8 @@ function App() {
       {/* <Hello person={person} /> */}
       {/* <Animals /> */}
       {/* <Fruits /> */}
-      <Message />
+      {/* <Message /> */}
+      <Counter />
     </>
   );
 }
