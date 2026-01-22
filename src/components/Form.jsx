@@ -9,6 +9,10 @@ function Form() {
     //     setText(e.target.value)
     //     console.log(e)
     // }
+    function handleSubmit(e){
+        e.preventDefault;
+        console.log(name);
+    }
 
     return (
         <div>
@@ -18,7 +22,7 @@ function Form() {
                 <input onChange={(e) => setName({ ...name, firstName: e.target.value })} type="text" value={name.firstName} />
                 <label>LastName</label>
                 <input onChange={(e) => setName({...name, lastName: e.target.value})} type="text" value={name.lastName} />
-                
+                <button onClick={(e) => handleSubmit(e)}> submit</button>
             </form>
         </div>
     )
