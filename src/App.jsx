@@ -1,11 +1,12 @@
 // import './App.css';
-import Animals from './components/Animals';
-import Bye from './components/Bye';
-import Fruits from './components/Fruits';
-import Hello from './components/Hello';
-import Message from './components/Message';
+// import Animals from './components/Animals';
+// import Bye from './components/Bye';
+// import Fruits from './components/Fruits';
+// import Hello from './components/Hello';
+// import Message from './components/Message';
 // import Counter from './components/Counter';
-import Form from './components/Form';
+// import Form from './components/Form';
+import ToDo from './components/ToDo';
 function App() {
   // const seatNumbers = [1,4,7];
   const person = {
@@ -20,7 +21,9 @@ function App() {
       {/* <Fruits /> */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      <Form />
+      {/* <Form /> */}
+      <ToDo />
+
     </>
   );
 }
